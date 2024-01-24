@@ -7,7 +7,7 @@ private:
     int playerGuess;
     int randomNumber;
     int numOfGuesses;
-    void printGameResult();
+    
 
 public:
     Game(int);
