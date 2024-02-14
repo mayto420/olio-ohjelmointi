@@ -1,9 +1,9 @@
 #ifndef APARTMENT_H
 #define APARTMENT_H
 
-
 class Apartment {
-    int residents, area;
+    int* residents;
+    int* area;
 public:
     Apartment();
     ~Apartment();

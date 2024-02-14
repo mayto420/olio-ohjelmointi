@@ -1,11 +1,13 @@
 #ifndef BUILDING_H
 #define BUILDING_H
+
 #include "groundfloor.h"
 #include "floor.h"
 
 class Building {
-    GroundFloor first;
-    Floor second, third;
+    GroundFloor* first;
+    Floor* second;
+    Floor* third;
 public:
     Building();
     ~Building();

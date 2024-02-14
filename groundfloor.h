@@ -2,9 +2,11 @@
 #define GROUNDFLOOR_H
 
 #include "floor.h"
+#include "apartment.h"
 
 class GroundFloor : public Floor {
-    Apartment apt1, apt2;
+    Apartment *apt1;
+    Apartment *apt2;
 public:
     GroundFloor();
     ~GroundFloor();

@@ -1,9 +1,13 @@
 #ifndef FLOOR_H
 #define FLOOR_H
+
 #include "apartment.h"
 
 class Floor {
-    Apartment apt1, apt2, apt3, apt4;
+    Apartment* apt1;
+    Apartment* apt2;
+    Apartment* apt3;
+    Apartment* apt4;
 public:
     Floor();
     ~Floor();
