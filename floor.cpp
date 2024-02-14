@@ -17,7 +17,7 @@ void Floor::defineApts() {
     this->apt3.setParameters(2, 100);
     this->apt4.setParameters(2, 100);
 
-    cout << "Kerrokseen m\x84\x84ritettiin 4 asuntoa" << endl;
+    cout << "4 apartments defined" << endl;
 }
 
 double Floor::calculateConsumption(double p) {
