@@ -15,7 +15,7 @@ void GroundFloor::defineApts() {
     this->apt1.setParameters(2, 100);
     this->apt2.setParameters(2, 100);
 
-    cout << "Pohjakerrokseen m\x84\x84ritettiin 2 asuntoa" << endl;
+    cout << "2 apartmends defined on ground floor" << endl;
 }
 
 double GroundFloor::calculateConsumption(double p) {
